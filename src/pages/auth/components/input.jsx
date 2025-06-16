@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Input } from "@components/common/Input";
 
 export const AuthInput = ({ state, setState, type, placeholder }) => {

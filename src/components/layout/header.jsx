@@ -1,5 +1,3 @@
-import React from "react";
-
 import Logo from "@assets/media/logo.svg";
 
 import { Select } from "../common/Select";
@@ -18,7 +16,7 @@ const datas = [
 
 export const Header = ({ state, style }) => {
     return (
-        <div className={`w-full max-w-screen-2xl h-[70px] bg-[#8080801A] bg-blue-[24] fixed items-center z-10 ${style}`}>
+        <div className={`w-full max-w-screen-2xl h-[70px] bg-[#8080801A] bg-blue-[24] fixed top-0 left-1/2 items-center z-10 t-center ${style}`}>
             <div className="px-8 flex items-center justify-between w-full">
                 <img src={Logo} alt="No Logo" />
                 {state && (

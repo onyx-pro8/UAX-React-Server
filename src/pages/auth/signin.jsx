@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { Box } from "./components/box";
 import { AuthInput } from "./components/input";
@@ -25,7 +25,7 @@ export const SignIn = () => {
                     <h1>Node Monitoring</h1>
                 </div>
                 <div className="xs:px-8 px-4 py-5">
-                    <h5 className="py-[2px] text-center">Signin with your email address:</h5>
+                    <h4 className="py-[2px] text-center">Signin with your email address:</h4>
                     <AuthInput
                         state={form}
                         setState={setForm}
