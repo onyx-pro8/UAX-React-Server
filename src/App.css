@@ -64,8 +64,9 @@ h5 {
 
 h6 {
   font-weight: 300;
-  font-size: 14;
+  font-size: 14px;
   color: #FFFFFFB2;
+  text-align: center;
 }
 
 span {

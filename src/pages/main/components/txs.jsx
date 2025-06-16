@@ -3,6 +3,6 @@ import { Template } from "./serverTemplate";
 
 export const Txs = () => {
     return (
-        <Template datas={datas.txs} />
+        <Template datas={datas.txs} style="xs:justify-start justify-center" />
     )
 };

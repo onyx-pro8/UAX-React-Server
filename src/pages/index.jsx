@@ -11,7 +11,7 @@ import { Terminal } from "./main/terminal";
 
 export const Pages = () => {
     return (
-        <div className="w-full h-screen min-h-screen 2xl:w-[1440px] py-[70px] mx-auto main-page">
+        <div className="w-full h-max min-h-screen 2xl:w-[1440px] py-[70px] mx-auto main-page">
             <Routes>
                 {/* Default and Overview Routes */}
                 <Route path="/" element={<SignIn />} />

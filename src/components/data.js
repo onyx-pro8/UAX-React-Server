@@ -70,7 +70,7 @@ export const datas = {
         },
         {
             icon: HTTP,
-            key: 'HTTp...',
+            key: 'HTTP...',
             value: '11.5 ms'
         },
         {
