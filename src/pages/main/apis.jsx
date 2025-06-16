@@ -45,7 +45,7 @@ export const APIs = () => {
             <Select
                 options={data}
                 style={{
-                    select: 'text-[#E22FFF] bg-transparent border-0 h-max'
+                    select: 'text-[#E22FFF] bg-transparent border-0 h-max !py-[3px]'
                 }}
             />
             {/* <div className="w-[1px] bg-[#FFFFFF14] ml-3 " /> */}

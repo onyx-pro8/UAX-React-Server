@@ -10,7 +10,7 @@ export const ServerBtn = () => {
         <div className="flex flex-wrap">
             {
                 datas.serverBtns.map((_itm, _idx) => (
-                    <div className="mt-[6px] mobile:w-full max-xs:w-full w-1/2 px-2" key={_idx}>
+                    <div className="mt-[6px] mobile:px-0 px-2 mobile:w-full xs:w-1/2 w-full" key={_idx}>
                         <Button
                             image={_itm.icon}
                             content={_itm.content}

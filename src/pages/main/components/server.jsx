@@ -64,7 +64,7 @@ export const Server = ({ Nr }) => {
                     </div>
                 </div>
             </div>
-            <div className="p-4 border-l border-[#FFFFFF0F] flex flex-col justify-between pb-7">
+            <div className="p-4 border-l border-[#FFFFFF0F] mobile:w-[176px] flex flex-col justify-between pb-7">
                 <ServerBtn />
                 <div className="items-center gap-[5px] mobile:flex hidden">
                     <div className="rounded-full w-[9px] h-[9px] bg-[#47FF91]" />
