@@ -32,18 +32,29 @@
   transform: translate(-50%, -50%);
 }
 
+h1,
+h5,
+h6 {
+  line-height: 1;
+}
+
 h1 {
   color: #fff;
   font-size: 18px;
-  line-height: 18px;
   font-weight: 500;
 }
 
-h6 {
+h5 {
   font-size: 15px;
   color: #FFFFFFB2;
   line-height: 18px;
   font-weight: 300;
+}
+
+h6 {
+  font-weight: 300;
+  font-size: 14;
+  color: #FFFFFFB2;
 }
 
 span.pink {
@@ -65,6 +76,23 @@ button {
 
 input::placeholder {
   color: #FFFFFF59;
+}
+
+select,
+select option {
+  background-color: #262632;
+  color: #fff;
+  font-size: 13px;
+}
+
+select {
+  border: 1px solid #FFFFFF17;
+  border-radius: 4px;
+  outline: none;
+}
+
+select::after {
+  color: #FFFFFFB2;
 }
 
 /* main styles */

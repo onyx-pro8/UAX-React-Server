@@ -5,6 +5,7 @@ import { ThemeProvider } from './context/ThemeContext';
 import { Pages } from './pages';
 
 import './App.css';
+import './assets/stylesheet/mobile.css';
 
 function App() {
   return (
