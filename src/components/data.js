@@ -207,5 +207,35 @@ export const datas = {
             totalTx: 187123,
             block: 10
         },
+    ],
+    apis: [
+        {
+            method: 'POST',
+            domain: 'Mint Coin'
+        },
+        {
+            method: 'POST',
+            domain: 'Get Pending Txn'
+        },
+        {
+            method: 'POST',
+            domain: 'Get Mining Eligibility'
+        },
+        {
+            method: 'POST',
+            domain: 'Coin Transaction'
+        },
+        {
+            method: 'POST',
+            domain: 'Add Global Power'
+        },
+        {
+            method: 'POST',
+            domain: 'Node'
+        },
+        {
+            method: 'POST',
+            domain: 'Txn Count'
+        },
     ]
 }

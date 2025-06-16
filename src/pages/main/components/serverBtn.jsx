@@ -14,7 +14,7 @@ export const ServerBtn = () => {
                         <Button
                             image={_itm.icon}
                             content={_itm.content}
-                            action={() => navigation('/main')}
+                            action={() => navigation('/apis')}
                             style="bg-[#D9D9D912] px-[8px] gap-[8px] !justify-start"
                         />
                     </div>

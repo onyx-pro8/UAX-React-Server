@@ -36,6 +36,12 @@ hr {
   background-color: #FFFFFF0F;
 }
 
+code {
+  font-weight: 300;
+  font-size: 13px;
+  color: #fff;
+}
+
 h1,
 h5,
 h6 {
@@ -57,7 +63,7 @@ h4 {
 
 h5 {
   font-size: 14px;
-  line-height: 600;
+  font-weight: 600;
   color: #fff;
   line-height: 18px;
 }
@@ -166,4 +172,9 @@ td {
   padding: 10px 12px;
   border: 1px solid #FFFFFF12;
   border-radius: 6px;
+}
+
+.active {
+  background-color: #2F2E3A;
+  border-color: #FFFFFF0D;
 }

@@ -10,3 +10,4 @@ export const Button = ({ content, icon, style, action, image }) => {
         </button>
     )
 };
+

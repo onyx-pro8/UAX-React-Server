@@ -5,7 +5,7 @@ import { Server } from "./components/server";
 
 export const Main = () => {
     return (
-        <div className="px-[30px] py-6">
+        <div className="px-4 py-6">
             <Header style='flex' state={true} />
             <PCInfor />
             <Server Nr={1} />
