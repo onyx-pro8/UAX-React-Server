@@ -16,8 +16,8 @@ export const TerminalPanel = () => {
                         <h2>Installation Logs</h2>
                         <Button
                             icon={'times text-white text-[8px]'}
-                            style={'w-6 h-6 d-center bg-[#FF513A] rounded-full absolute right-8'}
-                            action={() => navigation('/apis')}
+                            style={'!w-6 !h-6 d-center bg-[#FF513A] rounded-full absolute right-8'}
+                            action={() => navigation('/main')}
                         />
                     </div>
                     <div className="bg-black md:py-10 md:px-12 py-3 px-4 min-h-[614px]">

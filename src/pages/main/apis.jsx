@@ -104,7 +104,6 @@ export const APIs = () => {
                             <Button
                                 content={'Send'}
                                 style="bg-[#E22FFF] sm:w-max w-full px-[34px]"
-                                action={() => navigation('/terminal')}
                             />
                         </div>
                     </div>

@@ -166,18 +166,22 @@ export const datas = {
         {
             icon: restartApp,
             content: 'Restart Apps',
+            path: '/'
         },
         {
             icon: Logs,
             content: 'Show Logs',
+            path: '/terminal'
         },
         {
             icon: ErrorLogs,
             content: 'Show Error Logs',
+            path: '/'
         },
         {
             icon: Apis,
             content: 'API’s',
+            path: '/apis'
         },
     ],
     server: [
