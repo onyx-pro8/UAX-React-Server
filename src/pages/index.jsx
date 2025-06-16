@@ -7,7 +7,7 @@ import { Bucket } from "./auth/bucket";
 // main pages import
 import { Main } from "./main";
 import { APIs } from "./main/apis";
-import { Terminal } from "./main/terminal";
+import { TerminalPanel } from "./main/terminal";
 
 export const Pages = () => {
     return (
@@ -20,7 +20,7 @@ export const Pages = () => {
                 {/* Feature Routes */}
                 <Route path="/main" element={<Main />} />
                 <Route path="/apis" element={<APIs />} />
-                <Route path="/terminal" element={<Terminal />} />
+                <Route path="/terminal" element={<TerminalPanel />} />
             </Routes>
         </div>
     );

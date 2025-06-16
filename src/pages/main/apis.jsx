@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { useHooks } from "@hooks";
 
 import { datas } from "@components/data";
 import { Header } from "@components/layout/header";
@@ -29,6 +30,8 @@ const data = [
 ]
 
 export const APIs = () => {
+    const { navigation } = useHooks();
+
     const [state, setState] = useState(0);
     const [form, setForm] = useState({
         method: 'post',
@@ -101,6 +104,7 @@ export const APIs = () => {
                             <Button
                                 content={'Send'}
                                 style="bg-[#E22FFF] sm:w-max w-full px-[34px]"
+                                action={() => navigation('/terminal')}
                             />
                         </div>
                     </div>

@@ -18,7 +18,7 @@ export const ApiHead = () => {
             <div className="flex items-center gap-[10px]">
                 <Button
                     icon={'angle-left text-[#FFFFFF] text-[12px]'}
-                    style={'bg-[#D9D9D924] p-3 border border-[#FFFFFF14] w-[27px] h-[27px] d-center'}
+                    style={'bg-[#D9D9D924] p-3 border border-[#FFFFFF14] w-[27px] h-[27px] items-center justify-center mobile:hidden flex'}
                 />
                 <h1 className="text-[20px]">API's</h1>
             </div>
