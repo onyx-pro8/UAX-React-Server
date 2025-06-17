@@ -8,6 +8,7 @@ import { Bucket } from "./auth/bucket";
 import { Main } from "./main";
 import { APIs } from "./main/apis";
 import { TerminalPanel } from "./main/terminal";
+import { Logs } from './main/logs';
 
 export const Pages = () => {
     return (
@@ -21,6 +22,7 @@ export const Pages = () => {
                 <Route path="/main" element={<Main />} />
                 <Route path="/apis" element={<APIs />} />
                 <Route path="/terminal" element={<TerminalPanel />} />
+                <Route path="/logs" element={<Logs />} />
             </Routes>
         </div>
     );

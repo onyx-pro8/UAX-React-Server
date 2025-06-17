@@ -176,7 +176,7 @@ export const datas = {
         {
             icon: ErrorLogs,
             content: 'Show Error Logs',
-            path: '/'
+            path: '/logs'
         },
         {
             icon: Apis,
