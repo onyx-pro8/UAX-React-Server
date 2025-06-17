@@ -212,7 +212,7 @@ export const datas = {
             block: 10
         },
     ],
-    apis: [
+    apiList: [
         {
             method: 'POST',
             domain: 'Mint Coin'
@@ -241,5 +241,184 @@ export const datas = {
             method: 'POST',
             domain: 'Txn Count'
         },
+    ],
+    apis: [
+        {
+            value: 'post',
+            label: 'POST'
+        },
+        {
+            value: 'get',
+            label: 'Get'
+        },
+        {
+            value: 'put',
+            label: 'PUT'
+        },
+        {
+            value: 'delet',
+            label: 'DELET'
+        },
+    ],
+    apiResponds: [
+        <>
+            <code>
+                “current_mint_coin” :
+                <code className="text-[#47FF91]">
+                    true,
+                </code>
+            </code>
+            <code>
+                “last_minted_block” :  {'{'}
+            </code>
+            <code>
+                “index” : <code className="text-[#47FF91]">3333</code>,
+            </code>
+            <code>
+                “timestamp” : <code className="text-[#47FF91]">323123535324</code>,
+            </code>
+            <code>
+                “transactions” : {'['}
+            </code>
+            <code>
+                {'{'}
+            </code>
+            <code>
+                “ amount” : 0.9999,
+            </code>
+            <code>
+                “sender” : “<code className="text-[#FF697D]">EfDz4LTNhalh</code>.uaxn”,
+            </code>
+            <code>
+                “remark” “UAXN”
+            </code>
+            <code>
+                {'}'}
+            </code>
+            <code>
+                {'{'}
+            </code>
+            <code>
+                “nonce” : 70039,
+            </code>
+            <code>
+                “hash” : “<code className="text-[#FF697D]">00056cdyt54qjhu7644b3fe4880</code>”,
+            </code>
+            <code>
+                “peerID” : “<code className="text-[#FF697D]">Z_miner</code>”,
+            </code>
+            <code>
+                {'}'}
+            </code>
+            <code>
+                {'}'}
+            </code>
+        </>,
+        <>
+            <code>
+                “current_mint_coin” :
+                <code className="text-[#FF697D]">
+                    false,
+                </code>
+            </code>
+            <code>
+                “last_minted_block” :  {'{'}
+            </code>
+            <code>
+                “index” : <code className="text-[#47FF91]">4126</code>,
+            </code>
+            <code>
+                “timestamp” : <code className="text-[#47FF91]">1749803550675</code>,
+            </code>
+            <code>
+                “transactions” : {'['}
+            </code>
+            <code>
+                {'{'}
+            </code>
+            <code>
+                “ amount” : 0.528654122,
+            </code>
+            <code>
+                “sender” : “<code className="text-[#FF697D]">EfDz4LTNhalh</code>.uaxn”,
+            </code>
+            <code>
+                “remark” “UAXN”
+            </code>
+            <code>
+                {'}'}
+            </code>
+            <code>
+                {'{'}
+            </code>
+            <code>
+                “nonce” : 70035,
+            </code>
+            <code>
+                “hash” : “<code className="text-[#FF697D]">435we4323323412</code>”,
+            </code>
+            <code>
+                “peerID” : “<code className="text-[#FF697D]">Z_miner</code>”,
+            </code>
+            <code>
+                {'}'}
+            </code>
+            <code>
+                {'}'}
+            </code>
+        </>,
+        <>
+            <code>
+                “current_mint_coin” :
+                <code className="text-[#47FF91]">
+                    true,
+                </code>
+            </code>
+            <code>
+                “last_minted_block” :  {'{'}
+            </code>
+            <code>
+                “index” : <code className="text-[#47FF91]">6666</code>,
+            </code>
+            <code>
+                “timestamp” : <code className="text-[#47FF91]">3231235332435324</code>,
+            </code>
+            <code>
+                “transactions” : {'['}
+            </code>
+            <code>
+                {'{'}
+            </code>
+            <code>
+                “ amount” : 0.9999,
+            </code>
+            <code>
+                “sender” : “<code className="text-[#FF697D]">EfDz4LTNhalh</code>.uaxn”,
+            </code>
+            <code>
+                “remark” “UAXN”
+            </code>
+            <code>
+                {'}'}
+            </code>
+            <code>
+                {'{'}
+            </code>
+            <code>
+                “nonce” : 70088,
+            </code>
+            <code>
+                “hash” : “<code className="text-[#FF697D]">999f9dse9393f783r23rsdf</code>”,
+            </code>
+            <code>
+                “peerID” : “<code className="text-[#FF697D]">Z_miner</code>”,
+            </code>
+            <code>
+                {'}'}
+            </code>
+            <code>
+                {'}'}
+            </code>
+        </>
     ]
 }
