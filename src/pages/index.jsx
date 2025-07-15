@@ -10,20 +10,17 @@ import { APIs } from "./main/apis";
 import { TerminalPanel } from "./main/terminal";
 import { Logs } from './main/logs';
 
-export const Pages = () => {
-    return (
-        <div className="w-full h-max min-h-screen 2xl:w-[1440px] py-[70px] mx-auto main-page">
-            <Routes>
-                {/* Default and Overview Routes */}
-                <Route path="/" element={<SignIn />} />
-                <Route path="/bucket" element={<Bucket />} />
+export const Pages = () =>
+    <div className="w-full h-max min-h-screen 2xl:w-[1440px] py-[70px] mx-auto main-page">
+        <Routes>
+            {/* Default and Overview Routes */}
+            <Route path="/" element={<SignIn />} />
+            <Route path="/bucket" element={<Bucket />} />
 
-                {/* Feature Routes */}
-                <Route path="/main" element={<Main />} />
-                <Route path="/apis" element={<APIs />} />
-                <Route path="/terminal" element={<TerminalPanel />} />
-                <Route path="/logs" element={<Logs />} />
-            </Routes>
-        </div>
-    );
-};
+            {/* Feature Routes */}
+            <Route path="/main" element={<Main />} />
+            <Route path="/apis" element={<APIs />} />
+            <Route path="/terminal" element={<TerminalPanel />} />
+            <Route path="/logs" element={<Logs />} />
+        </Routes>
+    </div>
